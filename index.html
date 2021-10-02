@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Meeting Minutes</title>
+      <link rel="icon" href="favicon.ico">
+    </head>
+    <body>
+      <nav class="menu">
+        <ul>
+          <li><a href="#attendanceList">Attendance List</a></li>
+          <li><a href="#agenda">Agenda</a></li>
+          <li><a href="#comments">Comments</a></li>
+          <li><a href="#recordings">Recordings</a></li>
+          <li><a href="#form">Form</a></li>
+        </ul>
+      </nav>
+      <hr>
+      <header>
+        <img src="logo_UCSD.png" width=200px>
+        <h1>First Brainstorm</h1>
+        <p><b>Check-ins</b></p>
+        <p><b>10/02/2021</b></p>
+      </header>
+      <main>
+        <p><strong>This is the <em>first</em> brainstorm of our SWE group.</strong></p>
+      </main>
+      <div id="attendanceList">
+        <h2>Attendance List</h2>
+        <ul>
+          <li>John</li> 
+          <li>Jim</li>
+          <li>Jay</li>
+        </ul>
+      </div>
+      <div id="agenda">
+        <h2>Agenda</h2>
+        <ol>
+          <li>Group Name</li> 
+          <li>Group Plans</li>
+        </ol>
+      </div>
+      <div id="comments">
+        <h2>Comments</h2>
+        <section>
+          <h3>Group Name</h3>
+          <p>While John supported the name <span class="name"><i>Sparkling</i></span>, Jim and Jay supported <span class="name"><i>Forward</i></span>.</p>
+        </section>
+        <section>
+          <h3>Group Plans</h3>
+          <p>
+            John wants to create a calender application.<br>
+            Jim wants to implement an interactive web application.<br>
+            Jay wants to add the feature of to-do lists in the application.
+          </p>
+        </section>
+      </div>
+      <div id="recordings">
+        <h2>Recordings</h2>
+        <details>
+          <summary>Audio</summary>
+          <audio controls src="file_example_MP3_700KB.mp3"></audio>
+        </details>
+        <details>
+          <summary>Video</summary>
+          <video controls width="250">
+            <source src="Sample-MP4-Video-File-for-Testing.mp4" type="video/mp4">
+          </video>
+        </details>
+      </div>
+      <div id="form">
+        <h2>Form</h2>
+        <form action="" method="get" class="information-get">
+
+          <fieldset>
+            <div class="information-get">
+              <label for="name">Name: </label>
+              <input type="text" name="name" id="name">
+            </div>
+            <div>
+              <label for="ucsdStudent">Are you a UCSD student?</label>
+              <select name="ucsdOrNot" id="ucsdStudent">
+                <option value="">--Please choose an option--</option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+              </select>
+            </div>
+            <div class="information-get">
+              <label for="major">Major:</label>
+              <input list="majors" id="major" name="major" />
+              <datalist id="majors">
+                <option value="Computer Science">
+                <option value="Math-CS">
+                <option value="Mathematics">
+              </datalist>
+            </div>
+            <div class="information-get">
+              <label for="date">Graduation Date: </label>
+              <input type="date" name="date" id="date">
+            </div>
+            <p>What's your level?</p>
+            <div class="information-get">
+              <input type="radio" id="freshman" name="level">
+              <label for="freshman">Freshman</label><br/>
+            </div>
+            <div class="information-get">
+              <input type="radio" id="sophomore" name="level">
+              <label for="sophomore">Sophomore</label><br/>
+            </div>
+            <div class="information-get">
+              <input type="radio" id="junior" name="level">
+              <label for="junior">Junior</label><br/>
+            </div>
+            <div class="information-get">
+              <input type="radio" id="senior" name="level">
+              <label for="senior">Senior</label><br/>
+            </div>
+            <p>Check your avaliable time:</p>
+            <div class="information-get">
+              <input type="checkbox" id="0900" name="0900">
+              <label for="0900">9:00-10:00AM</label>
+            </div>
+            <div class="information-get">
+              <input type="checkbox" id="1000" name="1000">
+              <label for="1000">10:00-11:00AM</label>
+            </div>
+            <div class="information-get">
+              <label for="comments">Extra Comments:</label><br/>
+              <textarea id="comments" name="comments" rows="5" cols="33"></textarea>
+            </div>
+          </fieldset>
+
+          <div class="information-get">
+            <button type="submit">Submit</button>
+          </div>
+
+        </form>        
+      </div>
+      <hr>
+      <footer>
+        <p>© 2021 Y.W.</p>
+      </footer>
+    </body>
+</html>
