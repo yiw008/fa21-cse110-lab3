@@ -1,0 +1,119 @@
+/* apply background styles */
+body {
+  background-color: rgb(222, 231, 235);
+  display: grid;
+}
+
+@media only screen and (max-width: 900px) {
+  body {
+    background-color: rgb(226, 188, 241);
+  }
+}
+
+/* Style for "First Brainstorm" */
+h1 {
+  max-width: 500px;
+  color: #392da7;
+  text-align: center;
+}
+
+/* Style for headings */
+h2 {
+  max-height: 40px;
+  color: hsl(1, 34, 78);
+  margin-left: 40vw;
+}
+
+/* Style for headings under Comments*/
+h3 {
+  height: 4px;
+  color: blueviolet;
+  margin-left: 4vmin;
+}
+
+.information-get {
+  margin: 5px 5px 5px 5px;
+  padding: 2mm 2mm 2mm 2mm;
+  border-style: solid;
+  border-color: purple;
+  border-width: 0.05cm;
+  border-radius: 2ch;
+  border: 0.05cm solid purple;
+  display: inline-block;
+}
+
+.name {
+  color: chocolate;
+  display: flex;
+}
+
+footer {
+  position: relative;
+  left: 40px; 
+  display: none;
+}
+
+header {
+  position: absolute;
+  left: 600px;
+}
+
+main {
+  width: 5vw;
+}
+
+label:hover {
+  color: blue;
+}
+
+button:active {
+  color: red;
+}
+
+button {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 5px solid white;
+}
+
+#attendanceList {
+  font-family: 'Explora', cursive;
+}
+
+* {
+  text-decoration: underline;
+}
+
+a[href*="#"] {
+  background-color: gold;
+}
+
+audio, video{
+  width: 600px;
+}
+
+p em {
+  background-color: yellow;
+}
+
+form > div {
+  background-color: rgb(65, 225, 164);
+}
+
+li + li {
+  background-color: white;
+}
+
+h2 ~ section {
+  background-color: pink;
+}
+
+li.jay {
+  color: blue;
+}
